@@ -7,8 +7,6 @@ import json
 
 from dotenv import load_dotenv
 
-CODEBASE_DIRECTORY = '/Users/hendrikgobel/code/java/workspace/cards/src/cards'
-
 load_dotenv()
 
 def main():
