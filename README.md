@@ -1,11 +1,11 @@
-#Chat GPT code helper
+# Chat GPT code helper
 AI helper which is aware of your current codebase as context.
 
 - uses the OpenAI Api, so an API key is needed
 - Does not work on large code bases since since the context size is limited.
 
 
-##SETUP
+## SETUP
 
 1. Install:
 ```
@@ -22,13 +22,12 @@ pip3 install -r requirements.txt
 . venv/bin/activate
 ````
 
-5.
-Ask a question about the configured code base:
+5. Ask a question about the configured code base:
 
 ```
 python3 chat.py "What does the code do?"
 ```
 
 
-TODO:
+## TODO:
 - store conversation history
